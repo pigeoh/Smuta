@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
+    <title>Smuta</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <div class="main-menu" id="mainMenu">
+        <h1>大动乱时代</h1>
+        <button onclick="showPage('info')">说明</button>
+        <button onclick="showPage('settings')">设置</button>
+    </div>
+    <div class="page" id="infoPage">
+        <h2>游戏说明</h2>
+        <button onclick="backToMenu()">返回</button>
+    </div>
+    <div class="page" id="settingsPage">
+        <h2>游戏设置</h2>
+        <button onclick="backToMenu()">返回</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
